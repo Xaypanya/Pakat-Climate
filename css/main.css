@@ -1,0 +1,562 @@
+:root {
+    --white: #ffffff;
+    --white-hover: #ffffffb9;
+    --primary-green: #0e9e5b;
+    --light-green: #2fb979;
+    --dark-green: #407d44;
+    --main-green: #006838;
+    --yell: #ffe77aff;
+    --main-grey: #383838;
+    --fav-green: #1c945c;
+}
+
+.article-shortcut h2 {
+    color: var(--dark-green);
+    font-size: 2rem;
+}
+
+.article-shortcut {
+    padding: 50px 0;
+}
+
+
+            
+.sponsor-wrapper {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* border: 1px solid green; */
+    padding: 50px 60px 100px 60px ;
+    flex-wrap: wrap;
+
+}
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.topic-pakat {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+    width: 50%;
+    border-bottom: 1px solid var(--main-green);
+    flex-wrap: wrap;
+}
+
+.unreal-card {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 10px ;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.unreal-card img{
+    width: 115px;
+}
+
+.sponsor-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0 0 0;
+    color: var(--dark-green);
+}
+
+.sponsor-text h2 {
+    font-size: 1.8rem;
+}
+
+
+.sponsor-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.real-card {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.real-card:first-child {
+    width: 180px;
+    height: 180px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.real-card img{
+    width: 130px;
+}
+
+.real-card #datacom {
+    width: 170px;
+    transform: translateY(15px);
+}
+
+.real-card #jdb,#ldb {
+    width: 110px;
+}
+
+.real-card #laobank {
+    width: 88px;
+}
+
+
+.real-card #archineer {
+    width: 95px;
+}
+
+.real-card #mixshop {
+    width: 111px;
+}
+
+/* .article-shortcut
+.h3
+.h2
+.article-short
+.article-img-card */
+
+@media only screen and (max-width: 1536px){
+
+    .sponsor {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    
+    .topic-pakat {
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 40px;
+        width: 50%;
+        border-bottom: 1px solid var(--main-green);
+        flex-wrap: wrap;
+    }
+    
+    .unreal-card {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 10px ;
+        /* border: 1px solid red;    } */
+    }
+    .unreal-card img{
+        width: 95px;
+    }
+    
+    .sponsor-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px 0 0 0;
+        color: var(--dark-green);
+    }
+    
+    .sponsor-text h2 {
+        font-size: 1.8rem;
+    }
+    
+    
+    .sponsor-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .real-card {
+        display: flex;
+        align-items: flex-end;
+        /* border: 1px solid blue; */
+        margin: 3px;
+    }
+    
+    .real-card:first-child {
+        width: 150px;
+        height: 150px;
+        margin: 0;
+
+    }
+    
+    .real-card img{
+        width: 100px;
+    }
+    
+    .real-card #datacom {
+        width: 140px;
+        transform: translateY(15px);
+    }
+    
+    .real-card #jdb,#ldb {
+        width: 85px;
+    }
+
+    .real-card #jdb {
+        margin-right: 5px;
+    }
+    
+    .real-card #etl { 
+        transform: translateY(5px);
+    }
+
+    .real-card #laobank {
+        width: 68px;
+        transform: translateY(6px);
+    }
+    
+    .real-card #stb {
+        width: 110px;
+        transform: translateY(12px);
+    }
+    .real-card #archineer {
+        width: 70px;
+        transform: translateY(5px);
+    }
+
+    .real-card #kolao {
+        width: 85px;
+    }
+    .real-card #tigerhead { 
+        transform: translateY(8px);
+    }
+    .real-card #mixshop {
+        width: 80px;
+        transform: translateY(8px);
+    }
+
+
+
+ }
+
+ @media only screen and (max-width: 966px){
+     .topic-pakat {
+        width: 70%;
+     }
+ }
+
+ @media only screen and (max-width: 768px){ 
+    .topic-pakat {
+        width: 80%;
+     }
+
+     .article-shortcut h2 {
+         font-size: 2rem;
+     }
+
+     .sponsor-text h2 {
+         font-size: 2rem;
+     }
+ }
+
+ 
+ @media only screen and (max-width: 667px){ 
+    .topic-pakat {
+        width: 80%;
+     }
+
+     .article-shortcut h2 {
+         font-size: 1.6rem;
+     }
+
+     .sponsor-text h2 {
+         font-size: 1.6rem;
+     }
+ }
+
+ @media only screen and (max-width: 443px) { 
+    .article-shortcut h2 {
+        font-size: 1.3rem;
+    }
+
+    .sponsor-text h2 {
+        font-size: 1.3rem;
+    }
+    .sponsor {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    
+    .unreal-card {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 10px ;
+        /* border: 1px solid red;    } */
+    }
+    .unreal-card img{
+        width: 75px;
+    }
+    
+    
+    .sponsor-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .real-card {
+        display: flex;
+        align-items: flex-end;
+        /* border: 1px solid blue; */
+        margin: 3px;
+    }
+    
+    .real-card:first-child {
+        width: 120px;
+        height: 150px;
+        margin: 0;
+
+    }
+    
+    .real-card img{
+        width: 75px;
+    }
+    
+    .real-card #datacom {
+        width: 100px;
+        transform: translateY(15px);
+    }
+    
+    .real-card #jdb,#ldb {
+        width: 75px;
+    }
+
+    .real-card #jdb {
+        margin-right: 5px;
+    }
+    
+    .real-card #etl { 
+        transform: translateY(5px);
+    }
+
+    .real-card #laobank {
+        width: 58px;
+        transform: translateY(6px);
+    }
+    
+    .real-card #stb {
+        width: 95px;
+        transform: translateY(0px);
+    }
+    .real-card #archineer {
+        width: 70px;
+        transform: translateY(5px);
+    }
+
+    .real-card #kolao {
+        width: 75px;
+    }
+    .real-card #tigerhead { 
+        transform: translateY(8px);
+    }
+    .real-card #mixshop {
+        width: 80px;
+        transform: translateY(8px);
+    }
+
+ }
+
+ @media only screen and (max-width: 360px) { 
+
+    
+    
+    .unreal-card {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 10px ;
+        /* border: 1px solid red;    } */
+    }
+    .unreal-card img{
+        width: 75px;
+    }
+    
+    
+    .sponsor-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .real-card {
+        display: flex;
+        align-items: flex-end;
+        /* border: 1px solid blue; */
+        margin: 5px;
+    }
+    
+    .real-card:first-child {
+        width: 120px;
+        height: 150px;
+        margin: 0;
+
+    }
+    
+    .real-card img{
+        width: 75px;
+    }
+    
+    .real-card #datacom {
+        width: 100px;
+        transform: translateY(15px);
+    }
+    
+    .real-card #jdb,#ldb {
+        width: 55px;
+    }
+
+    .real-card #jdb {
+        margin-right: 5px;
+    }
+    
+    .real-card #etl { 
+        transform: translateY(5px);
+    }
+
+    .real-card #laobank {
+        width: 58px;
+        transform: translateY(6px);
+    }
+    
+    .real-card #stb {
+        width: 95px;
+        transform: translateY(10px);
+    }
+    .real-card #archineer {
+        width: 70px;
+        transform: translateY(5px);
+    }
+
+    .real-card #kolao {
+        width: 75px;
+    }
+    .real-card #tigerhead { 
+        transform: translateY(8px);
+    }
+    .real-card #mixshop {
+        width: 80px;
+        transform: translateY(8px);
+    }
+
+ }
+
+
+ @media only screen and (max-width: 320px) { 
+    .article-shortcut h2 {
+        font-size: 1.3rem;
+    }
+
+    .sponsor-text h2 {
+        font-size: 1.3rem;
+    }
+    .sponsor {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    
+    .unreal-card {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 10px ;
+        /* border: 1px solid red;    } */
+    }
+    .unreal-card img{
+        width: 75px;
+    }
+    
+    
+    .sponsor-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .real-card {
+        display: flex;
+        align-items: flex-end;
+        /* border: 1px solid blue; */
+        margin: 3px;
+    }
+    
+    .real-card:first-child {
+        width: 120px;
+        height: 150px;
+        margin: 0;
+
+    }
+    
+    .real-card img{
+        width: 75px;
+    }
+    
+    .real-card #datacom {
+        width: 100px;
+        transform: translateY(15px);
+    }
+    
+    .real-card #jdb,#ldb {
+        width: 75px;
+    }
+
+    .real-card #jdb {
+        margin-right: 5px;
+    }
+    
+    .real-card #etl { 
+        transform: translateY(5px);
+    }
+
+    .real-card #laobank {
+        width: 58px;
+        transform: translateY(6px);
+    }
+    
+    .real-card #stb {
+        width: 95px;
+        transform: translateY(0px);
+    }
+    .real-card #archineer {
+        width: 70px;
+        transform: translateY(5px);
+    }
+
+    .real-card #kolao {
+        width: 75px;
+    }
+    .real-card #tigerhead { 
+        transform: translateY(8px);
+    }
+    .real-card #mixshop {
+        width: 80px;
+        transform: translateY(8px);
+    }
+
+    .topic-pakat {
+        width: 95%;
+    }
+
+    .topic-pakat img {
+        width: 70px;
+    }
+
+ }

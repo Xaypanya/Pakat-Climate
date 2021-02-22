@@ -1,0 +1,152 @@
+:root {
+    --white: #ffffff;
+    --white-hover: #ffffffb9;
+    --primary-green: #0e9e5b;
+    --light-green: #2fb979;
+    --dark-green: #407d44;
+    --main-green: #006838;
+    --yell: #ffe77aff;
+    --main-grey: #383838;
+    --fav-green: #1c945c;
+}
+
+
+.about-main-wrapper {
+    margin-top: 97px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.text-member {
+    display: flex;
+    justify-content: center;
+}
+
+.text-member h2 {
+    color: var(--main-green);
+    font-size: 2rem;
+}
+.about-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*card*/
+
+.card {
+    max-width: 310px;
+    text-align: center;
+    background-color: var(--fav-green);
+    clear: both;
+    height: 500px;
+    margin: 10px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.title {
+    color: #ffd21d;
+    font-size: 1.3rem;
+}
+.card img {
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.card h1 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.card a {
+    font-size: 2rem;
+    color: #fff;
+    margin: 3px;
+}
+.card p {
+    color: var(--main-grey);
+    font-weight: 600;
+}
+
+
+.card a:hover {
+    opacity: 80%;
+    cursor: pointer;
+    
+}
+
+.card #mail {
+    margin: 0;
+}
+
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.purpose h2 {
+    text-decoration: underline;
+    color: var(--main-green);
+}
+
+.purpose p {
+    width: 50%;
+    font-size: 1.6rem;
+    padding: 10px;
+    color: var(--main-green);
+}
+
+
+@media only screen and (max-width: 925px){
+
+    .about-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .purpose p {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 667px){
+    .purpose p {
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 10px;
+        color: var(--main-green);
+    }
+}
+
+
+@media only screen and (max-width: 443px){
+    .purpose p {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .purpose {
+        padding: 30px 10px 10px 10px;
+    
+    }
+    
+}
+
+
+                        /* <img src="img/bow.png" alt="Phatsany">
+                        <h1 style="font-size: 27px;">ນ.ພັດສະນີ ໂຍທາສີ</h1>
+                        <p class="title">ສາຂາວິຊາຂໍ້ມູນຂ່າວສານແລະເຕັກໂນໂລຊີ</p>
+                        <p>ຄະນະວິສະວະກຳສາດ</p>
+                        <a href="https://web.facebook.com/pbo.yothasy" style="font-size: 20px;" target="_blank"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/psnbow/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://wa.me/+8562091068631"><i class="fa fa-whatsapp"></i></a>
+                        <p><a href="mailto:phatsany312@gmail.com"><button> &gt; ລ້ຽງເປບຊີ &lt; </button></a></p>
+                    </div> */
